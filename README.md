@@ -40,7 +40,7 @@ Ensure you have the following installed:
 7. **Run the Frontend: In the frontend directory:**
     npm start
 
-8. **Access the Application: The application should be running at http://localhost:3000.**
+8. **Access the Application: The application should be running at http://localhost:5000.**
 
 ### Key Features Implemented
 
