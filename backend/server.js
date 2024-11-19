@@ -11,6 +11,7 @@ const PORT = process.env.PORT || 5000;
 const NODE_ENV = process.env.NODE_ENV || 'development';
 
 const app = express();
+const path =require('path')
 // const __dirname = path.resolve();
 app.use(express.json())
 app.use(cookieParser());
