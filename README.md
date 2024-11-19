@@ -67,4 +67,4 @@ Ensure you have the following installed:
 - bcryptjs
 - dotenv
 - cors
-- nodemon (for development)
+- nodemon (for development )
