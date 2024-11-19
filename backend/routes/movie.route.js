@@ -1,5 +1,5 @@
 const express = require('express')
-const { getTrendingMovie, getMovieTrailers, getMoviesByCategory, getSimilarMovies, getMovieDetails } = require("/backend/controllers.js")
+const { getTrendingMovie, getMovieTrailers, getMoviesByCategory, getSimilarMovies, getMovieDetails } = require("../controllers/movie.controller")
 
 const Movie_router = express.Router();
 
