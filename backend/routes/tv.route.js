@@ -7,7 +7,7 @@ const {
     getTvTrailers,
 } =require("../controllers/tv.controller.js");
 
-const TV_router = express.TV_();
+const TV_router = express.Router();
 
 TV_router.get("/trending", getTrendingTv);
 TV_router.get("/:id/trailers", getTvTrailers);

@@ -5,12 +5,13 @@ const Auth_router = require('./routes/auth.route');
 const TV_router = require('./routes/tv.route');
 const Search_router = require('./routes/search.route');
 const protectRoute = require('./middleware/protectRoute');
+const cookieParser=require('cookie-parser')
 require('dotenv').config();
 const PORT = process.env.PORT || 5000;
 const NODE_ENV = process.env.NODE_ENV || 'development';
 
 const app = express();
-const __dirname = path.resolve();
+// const __dirname = path.resolve();
 app.use(express.json())
 app.use(cookieParser());
 app.use("/api/v1/auth", Auth_router)
